@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 
-def test_visibility_add_to_busket_button(browser):
+def test_add_to_basket_button_is_located(browser):
     browser.get('http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/')
     try:
         WebDriverWait(browser, 10).until(
